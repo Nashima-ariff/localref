@@ -1,0 +1,74 @@
+<!-- ======= Top Bar ======= -->
+<div class="top-head" style="height: 30px;">
+    <div class="container">
+        <div class="row ">
+            <div class="col-lg-6">
+                <img src="assets/icons/mail.png" alt="" height="20px" />
+                <a href="mailto:contact@example.com" style="text-decoration: none;"> &nbsp; contact@example.com
+                    &nbsp;</a>
+                <img src="assets/icons/phone-call.png" alt="" height="20px" />
+                &nbsp; +1 5589 55488 55
+            </div>
+            <div class="col-lg-6" style="text-align: end;">
+                <a href="#" class="twitter" style="text-decoration: none;">
+                    <img src="assets/icons/twitter.png" alt="" height="20px" />
+                </a>
+                <a href="#" class="facebook" style="text-decoration: none;">
+                    &nbsp; <img src="assets/icons/facebook.png" alt="" height="20px" />
+                </a>
+                <a href="#" class="instagram" style="text-decoration: none;">
+                    &nbsp; <img src="assets/icons/instagram.png" alt="" height="20px" />
+                </a>
+                <a href="#" class="linkedin" style="text-decoration: none;">
+                    &nbsp; <img src="assets/icons/linkedin.png" alt="" height="20px" />
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<nav class="navbar navbar-expand-lg  navbar-light ">
+    <div class="container">
+        <a class="navbar-brand" [routerLink]="['/home']" routerLinkActive="router-link-active"><img
+                src="assets/icons/logo/3.jpg" alt="" height="50px" />
+                <span> EV PARTS </span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" [routerLink]="['/home']">Home</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" [routerLink]="['/prodcut']">Products</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Batteries & BMS
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li> -->
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+    </div>
+</nav>
